@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/sytle.css">
     <title>SGPA to Percentage Calculator</title>
 </head>
+
 <body>
     <div class="container">
         <div class="title">
@@ -14,5 +16,39 @@
             <span class="calci">Calculator</span>
         </div>
     </div>
+
+    <div class="calculator-container">
+        <h1 style="line-height: 1;">Convert your SGPA into Percentage
+        </h1>
+        <p>Please enter the SGPA and the calculator will let you know its corresponding percentage form.</p>
+        <div class="calculator">
+            <input class="num-bar" id="num-1" type="text" placeholder="Enter Your SGPA">
+            <p id="ans" class="answer">SGPA in Percentage: %</p>
+            <button class="btn" onclick="calculate()" type="button">Calculate SGPA</button>
+            <button class="btn" onclick="reset()" type="button">Clear</button>
+
+        </div>
+    </div>
+    <script>
+        function calculate() {
+            const input1 = document.getElementById("num-1").value;
+
+            const sum = parseFloat(input1) * 10;
+            const percent = sum - 7.5;
+
+            const ansElement = document.getElementById("ans");
+
+            ansElement.innerText = `SGPA in Percentage: ${percent}%`;
+        }
+
+        function reset() {
+            const input1 = document.getElementById("num-1");
+            const ansElement = document.getElementById("ans");
+
+            input1.value = "";
+            ansElement.innerText = "";
+        }
+    </script>
 </body>
+
 </html>
