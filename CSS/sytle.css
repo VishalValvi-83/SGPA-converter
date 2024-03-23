@@ -9,3 +9,51 @@ body {
     color: repeating-linear-gradient(red, yellow 10%, green 20%);
     margin-top: 30px;
 }
+.container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.title {
+    padding: 20px;
+}
+
+span {
+    line-height: 1;
+    padding: 0 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgb(122, 13, 105);
+    background: linear-gradient(90deg, rgba(122, 13, 105, 1) 0%, rgba(230, 32, 142, 1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.5s ease-out;
+
+}
+
+.sgpa {
+    font-variant: small-caps;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: 180px;
+}
+
+.to,
+.calci {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.percent {
+    font-variant: small-caps;
+
+    letter-spacing: 6px;
+    font-weight: bolder;
+    font-size: 90px;
+}
+
+.calci {
+    font-variant: small-caps;
+}
