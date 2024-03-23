@@ -57,3 +57,26 @@ span {
 .calci {
     font-variant: small-caps;
 }
+.calculator-container {
+    position: absolute;
+    display: inline-block;
+    top: 100px;
+    background-color: #FDF5DF;
+    right: 50px;
+    margin: 30px;
+    padding: 40px;
+    border: 1px solid saddlebrown;
+    border-radius: 20px;
+    height: auto;
+    width: 800px;
+    text-align: center;
+}
+
+.calculator {
+    padding: 20px;
+    border-radius: 18px;
+    background-color: #EBA63F;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
