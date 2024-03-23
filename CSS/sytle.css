@@ -117,3 +117,28 @@ span {
 
 
 }
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title span {
+        font-family: initial;
+        font-size: 50px;
+    }
+
+    .calculator-container {
+        position: relative;
+        right: inherit;
+        width: 80%;
+        margin: 0;
+        display: block;
+
+    }
+
+}
