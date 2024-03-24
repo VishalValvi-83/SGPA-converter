@@ -9,6 +9,7 @@ body {
     color: repeating-linear-gradient(red, yellow 10%, green 20%);
     margin-top: 30px;
 }
+
 .container {
     position: relative;
     display: flex;
@@ -57,6 +58,7 @@ span {
 .calci {
     font-variant: small-caps;
 }
+
 .calculator-container {
     position: absolute;
     display: inline-block;
@@ -70,6 +72,11 @@ span {
     height: auto;
     width: 800px;
     text-align: center;
+}
+
+.calculator-container .text {
+    font-weight: 700;
+    color: rgb(210, 90, 30);
 }
 
 .calculator {
@@ -118,6 +125,25 @@ span {
 
 }
 
+.formula {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 30px;
+    transition: all 0.5s ease-out;
+
+}
+
+.formula .example {
+    margin-left: 60px;
+    background-color: rgb(210, 90, 30);
+    color: white;
+    border: #EBA63F;
+    width: fit-content;
+    padding: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 768px) {
 
     .container {
@@ -139,6 +165,10 @@ span {
         margin: 0;
         display: block;
 
+    }
+
+    .formula {
+        display: none;
     }
 
 }
