@@ -21,7 +21,7 @@ This is a simple web application that converts Semester Grade Point Average (SGP
 5. The corresponding percentage will be displayed.
 
 ## Live  Demo
-[Live Demo]() 
+[Live Demo](https://sgpatopercentage.netlify.app/) 
 
 ## Screenshots
 ![Screenshot](./Img/SGPA%20convert.jpeg)
