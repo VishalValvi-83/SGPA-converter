@@ -3,7 +3,7 @@ body {
     background: linear-gradient(90deg, rgba(122, 13, 105, 1) 0%, rgba(230, 32, 142, 1) 100%);
     background-image: url(./../Img/cool-background.png);
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 110vh;
     background-size: cover;
     font: 14px/20px "Lato", Arial, sans-serif;
     color: repeating-linear-gradient(red, yellow 10%, green 20%);
