@@ -24,5 +24,5 @@ This is a simple web application that converts Semester Grade Point Average (SGP
 [Live Demo]() 
 
 ## Screenshots
-![Screenshot](./Img/SGPA%20convert.jpeg.png)
+![Screenshot](./Img/SGPA%20convert.jpeg)
 
